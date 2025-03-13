@@ -58,7 +58,8 @@ public class Main {
 				if (0 <= nx && nx < M && 0 <= ny && ny < N && !visit[v][ny][nx] && map[ny][nx] != '#') {
 					if (!Character.isUpperCase(map[ny][nx])) {
 						if (map[ny][nx] == '1') {
-							result = Math.min(result, tmp[3]);
+							result = tmp[3];
+							return;
 						}
 
 						visit[v][ny][nx] = true;
