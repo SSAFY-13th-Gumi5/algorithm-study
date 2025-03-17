@@ -5,8 +5,7 @@ public class Main {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringBuilder sb = new StringBuilder();
     static Deque<Integer> arr = new ArrayDeque<>();
-    static int reversCount = 0;
-
+    static int reversCount;
     public static void main(String[] args) throws NumberFormatException, IOException {
         int T = Integer.parseInt(br.readLine());
 
